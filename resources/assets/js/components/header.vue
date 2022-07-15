@@ -391,6 +391,11 @@
 								<i class="icon-feed"></i> Kegiatan Berjalan
 							</router-link>
 
+							<!-- Form Evaluasi -->
+							<router-link :to="{ name: 'pertanyaanEvaluasi' }" class="dropdown-item" active-class="active" exact>
+								<i class="icon-list3"></i> Input Pertanyaan Evaluasi
+							</router-link>
+
 							<!-- divider -->
 							<div class="dropdown-divider" v-if="currentUser.can['create_diklat_bkcu']"></div>
 

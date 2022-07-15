@@ -12,7 +12,6 @@ const activityLog = () => import('./views/user/indexAktivitas.vue');
 const pengumuman = () => import('./views/pengumuman/index.vue');
 const notFound = () => import('./views/notFound.vue');
 const artikel = () => import('./views/artikel/index.vue');
-const evaluasiWidget = () => import('./views/evaluasiKegiatan/form.vue');
 const artikel_form = () => import('./views/artikel/form.vue');
 const artikelPenulis = () => import('./views/artikelPenulis/index.vue');
 const artikelPenulis_form = () => import('./views/artikelPenulis/form.vue');
@@ -37,11 +36,16 @@ const halamanBaru = () => import ('./views/halamanBaru/index.vue');
 const halamanBaru_form = () => import ('./views/halamanBaru/form.vue');
 const baruLagi = () => import ('./views/baruLagi/index.vue');
 const baruLagi_form = () => import ('./views/baruLagi/form.vue');
+
 const evaluasiKegiatan = () => import ('./views/evaluasiKegiatan/index.vue');
 const evaluasiKegiatan_form = () => import ('./views/evaluasiKegiatan/form.vue');
+
 const evaluasiKegiatanDashboard = () => import ('./views/pertanyaanEvaluasi/index.vue');
 const pertanyaanEvaluasi = () => import ('./views/pertanyaanEvaluasi/index.vue');
 const pertanyaanEvaluasi_form = () => import ('./views/pertanyaanEvaluasi/form.vue');
+
+const evaluasiWidget = () => import('./views/evaluasiKegiatan/form.vue');
+
 const tempat = () => import('./views/tempat/index.vue');
 const tempat_form = () => import('./views/tempat/form.vue');
 const cu = () => import('./views/cu/index.vue');

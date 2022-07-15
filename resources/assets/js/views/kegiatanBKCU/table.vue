@@ -34,12 +34,6 @@
 						<i class="icon-stack2"></i> Detail
 					</button>
 
-					<!-- Evalausi-->
-					<button @click.prevent="evaluasi(selectedItem.id)" class="btn btn-light mb-1" v-if="currentUser.can && currentUser.can['index_diklat_bkcu']" :disabled="!selectedItem.id">
-						<i class="fa fa-cloud"></i> Evalausi
-					</button>
-
-
 				</template>
 
 				<!-- pertemuan bkcu button -->
