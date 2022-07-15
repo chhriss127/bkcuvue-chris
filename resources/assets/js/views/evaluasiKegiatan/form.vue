@@ -23,7 +23,7 @@
 									
 
 									<!-- nama -->
-									<div class="col-md-6">
+									<div class="col-md-12">
 										<div class="form-group" :class="{'has-error' : errors.has('form.name')}">
 
 											<!-- title -->
@@ -131,7 +131,7 @@
 
 							<div class="card-body">	
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-md-12">
 										<div class="form-group" :class="{'has-error' : errors.has('form.pertanyaan')}">
 											<!-- title -->
 											<label :class="{ 'text-danger' : errors.has('form.pertanyaan')}">
